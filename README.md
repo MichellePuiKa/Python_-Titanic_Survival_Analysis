@@ -63,26 +63,42 @@ This analysis focuses on four key questions:
 -	Family Size has little impact on survival
 -	Visualized using a **correlation heatmap**
 
+
+
 ## **5. Insights Deep Dive**
 **1. What is the overall survival rate?**
-![Pie Chart](https://github.com/MichellePuiKa/Excel-Insurance-Data-Analysis-Dashboard/blob/main/Distribution%20Channels.PNG)
+
+![Pie Chart]( https://github.com/MichellePuiKa/Python_-Titanic_Survival_Analysis/blob/main/Pie%20Chart.png)
 
 **Overall Survival Rate:** A pie chart was used to show the overall survival rate of passengers, indicating the proportion of those who survived and those who did not. The chart clearly illustrates the disparity in survival, with fewer passengers surviving.
 
+
+
 **2. How does survival vary by passenger class and fare?**
+
+![KDE]( https://github.com/MichellePuiKa/Python_-Titanic_Survival_Analysis/blob/main/KDE.png)
 
 A Kernel Density Estimate (KDE) plot was created to explore how survival rates vary by passenger class and fare. The analysis revealed that **survival rates were higher for 1st class passengers, with a positive correlation between higher fare prices and a greater likelihood of survival**.
 
+
+
+
 **3. How does survival vary by age and gender?**
+
+![Bar Chart_Table]( https://github.com/MichellePuiKa/Python_-Titanic_Survival_Analysis/blob/main/Stacked%20Bar%20Chart_Table.png)
 
 A bar chart was generated to show the distribution of survival and death rates by age group and gender. This analysis highlighted that women had a significantly higher survival rate compared to men, with children also showing higher survival rates. Additionally, a table displaying the counts and percentages of survived and died passengers for both males and females was included to offer a clearer comparison between the two groups.
 
 
+
+
  **4. What are the correlations between Titanic dataset features?**
+ 
+ ![Correlation_Heatmap]( https://github.com/MichellePuiKa/Python_-Titanic_Survival_Analysis/blob/main/Coorelation_Heatmap.png)
+ 
 A correlation heatmap was generated to analyse the relationships between key features in the dataset. The heatmap revealed strong negative correlations between Pclass and Survived, suggesting that lower-class passengers were less likely to survive. A positive correlation between Fare and Survived was also observed, indicating that passengers who paid higher fares had a higher chance of survival.
 
 
-![Column Chart](https://github.com/MichellePuiKa/Excel-Insurance-Data-Analysis-Dashboard/blob/main/Comparison%20of%20Average%20Conversion%20Rates.PNG)
 
 
 ## **5. Conclusion**
@@ -101,7 +117,7 @@ A correlation heatmap was generated to analyse the relationships between key fea
 -	**Limited Dataset:** The dataset includes only 891 passengers, not the entire Titanic manifest
 -	**Missing Data:** Age and Cabin had many missing values, requiring imputation or removal
 -	**Limited Features:** Additional factors like passenger health, physical strength, and group behaviour were not included
--	**Historical Bias:** The dataset reflects the **early 1900s societal norms**, which may not apply to modern disasters
+-	**Historical Bias:** The dataset reflects the early 1900s societal norms, which may not apply to modern disasters
 
 
 ## **💡 Connect & Feedback**
